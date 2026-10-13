@@ -1,0 +1,9 @@
+{
+  "name": "circulo-instagram",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Painel e extensão local para revisar e deixar de seguir uma seleção de contas do Instagram",
+  "scripts": { "test": "node --test testes/*.test.mjs testes/background.test.cjs" },
+  "engines": { "node": ">=20" }
+}

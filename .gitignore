@@ -1,0 +1,44 @@
+# Dependências e arquivos temporários de desenvolvimento
+node_modules/
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Ambiente local e configuração de hospedagem
+.env
+.env.*
+.openai/
+work/
+outputs/
+instagram-private/
+site/
+
+# Downloads, dados de contas e arquivos exportados pelo usuário
+*.zip
+*.csv
+*.tsv
+instagram-*.json
+following*.json
+followers*.json
+circulo-fila*.json
+circulo-backup*.json
+circulo-dados*.json
+circulo-progresso*.json
+codex-clipboard-*.png
+screenshots/
+capturas/
+
+# Exemplos fictícios usados pelos testes são parte do código
+!testes/fixtures/following.json
+!testes/fixtures/followers_*.json
+!tests/fixtures/following.json
+!tests/fixtures/followers_*.json
+
+# Credenciais não fazem parte do projeto
+cookies*.json
+tokens*.json
+credentials*.json
+*.pem
+*.key
