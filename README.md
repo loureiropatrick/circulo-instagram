@@ -34,10 +34,6 @@ Se aparecer uma falha de conexão, reabra o painel pelo ícone e use **Verificar
 
 **Encerrar sem apagar progresso** interrompe a fila e permite reorganizar a seleção. Não apaga suas listas nem o histórico. Se restarem itens, a fila encerrada pode ser retomada após nova revisão. **Exportar progresso** baixa um relatório JSON com concluídos, pendentes e itens para revisão; ele é um registro local, não um arquivo de restauração. Não publique esse relatório no GitHub.
 
-## Publicar no GitHub
-
-Envie o **código extraído**, os testes e os documentos do pacote para o repositório. Disponibilize o ZIP limpo como anexo de uma **Release**. O guia [PUBLICAR-NO-GITHUB.md](PUBLICAR-NO-GITHUB.md) explica os dois caminhos. Mantenha os arquivos reais do Instagram, filas, relatórios e capturas fora do repositório.
-
 ## Como obter sua lista
 
 No Instagram, abra a **Central de Contas → Suas informações e permissões → Exportar/Baixar suas informações**. Escolha seu perfil do Instagram, as informações de **seguidores e seguindo**, **todo o período** e o formato **JSON**. Os nomes dos menus podem variar conforme a versão.
