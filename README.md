@@ -21,7 +21,7 @@ Não é necessário instalar Node.js, Python ou dependências para usar a extens
 
 ### Atualizar uma instalação existente
 
-Extraia o ZIP atualizado e substitua os arquivos da pasta **extensao** que você carregou anteriormente pelos arquivos novos. Em `chrome://extensions` ou `edge://extensions`, clique em **Recarregar** no Círculo. Feche o painel antigo, reabra pelo ícone da extensão e **recarregue também a aba do Instagram** antes de abrir Seguindo. Mantenha a mesma pasta e não remova a extensão para preservar os dados locais. Esta versão é **1.1.0**; o rodapé do painel também mostra a versão. Carregar outra pasta como uma nova extensão pode criar um armazenamento separado.
+Extraia o ZIP atualizado e substitua os arquivos da pasta **extensao** que você carregou anteriormente pelos arquivos novos. Em `chrome://extensions` ou `edge://extensions`, clique em **Recarregar** no Círculo. Feche o painel antigo, reabra pelo ícone da extensão e **recarregue também a aba do Instagram** antes de abrir Seguindo. Mantenha a mesma pasta e não remova a extensão para preservar os dados locais. Esta versão é **1.2.0**; o rodapé do painel também mostra a versão. Carregar outra pasta como uma nova extensão pode criar um armazenamento separado.
 
 ## Continuar depois de fechar o navegador
 
@@ -88,7 +88,8 @@ Use **Privacidade → Limpar dados locais** para apagar a lista e os resultados 
 extensao/
   manifest.json          Configuração MV3 e permissões
   index.html             Painel em português
-  styles.css             Interface responsiva
+  styles.css             Interface responsiva e temas claro/escuro
+  theme.js               Alternância e persistência do tema
   app.js                 Importação, seleção, protegidos e fila
   data-core.js           Leitura e validação dos arquivos
   background.js          Controle persistente da execução

@@ -1,5 +1,10 @@
 # Histórico de versões
 
+## 1.2.0 — 22 de outubro de 2026
+
+- Novo tema escuro. O botão na barra superior alterna entre automático (segue o sistema), claro e escuro, e a escolha fica salva neste navegador.
+- As cores da interface passaram a usar variáveis CSS; o tema claro permanece igual.
+
 ## 1.1.0 — 13 de outubro de 2026
 
 - Retoma uma fila salva em uma nova aba da mesma conta do Instagram, após revisão e confirmação.

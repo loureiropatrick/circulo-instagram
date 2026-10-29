@@ -8,6 +8,7 @@
   <title>Círculo — menos ruído, mais conexão</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
+  <script src="theme.js"></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Pular para o conteúdo</a>
@@ -28,7 +29,7 @@
     </div>
   </aside>
   <div class="page-shell">
-    <header class="topbar"><div class="breadcrumb">Meu espaço <span>/</span> <strong id="breadcrumb-view">Minha lista</strong></div><div class="top-actions"><span class="local-chip"><span class="status-dot"></span>Dados neste navegador</span><button class="icon-button" data-action="guide" aria-label="Ajuda"><span data-icon="help"></span></button></div></header>
+    <header class="topbar"><div class="breadcrumb">Meu espaço <span>/</span> <strong id="breadcrumb-view">Minha lista</strong></div><div class="top-actions"><span class="local-chip"><span class="status-dot"></span>Dados neste navegador</span><button class="icon-button" id="theme-toggle" type="button"></button><button class="icon-button" data-action="guide" aria-label="Ajuda"><span data-icon="help"></span></button></div></header>
     <main id="main" tabindex="-1">
       <section class="page-heading"><div><div class="eyebrow"><span class="tiny-spark">✳</span> UM FEED COM MAIS INTENÇÃO</div><h1 id="page-title">Menos ruído. <span>Mais conexão.</span></h1><p id="page-subtitle">Mantenha as conexões mútuas. Revise quem não segue você de volta.</p></div><button class="button primary" data-action="import"><span data-icon="upload"></span>Importar minha lista</button></section>
       <section class="demo-banner" id="demo-banner"><span class="demo-icon" data-icon="flask"></span><div><strong>Um primeiro olhar, com dados de demonstração.</strong><span>Explore o painel ou importe sua lista para começar de verdade.</span></div><button class="text-button" data-action="import">Usar meus dados <span>↗</span></button></section>
@@ -52,7 +53,7 @@
         <section class="queue-panel" id="queue-view" hidden><div class="panel-heading"><div><h2>Sua fila de limpeza</h2><p>Uma seleção revisada. Uma ação de cada vez.</p></div><span class="badge" id="run-badge">Aguardando</span></div><div class="queue-summary"><span class="queue-illustration" data-icon="layers"></span><h3 id="run-title">Sua próxima seleção começa aqui</h3><p id="run-message">Selecione contas na sua lista e clique em “Preparar fila”.</p><progress id="run-progress" max="1" value="0"></progress><div id="run-counts"></div></div><div class="queue-controls"><button class="button primary" id="queue-start">Revisar e iniciar</button><button class="button secondary" id="queue-pause">Pausar</button><button class="button secondary" id="queue-stop">Encerrar sem apagar</button><button class="button secondary" id="queue-export"><span data-icon="download"></span>Exportar pendentes</button><button class="button secondary" id="queue-report">Exportar progresso</button></div><div id="queue-list" class="queue-list"></div></section>
         <aside class="right-rail"><article class="intention-card"><div class="orbital-art" aria-hidden="true"><div class="orbit o1"></div><div class="orbit o2"></div><div class="orbit o3"></div><span class="orbital-center">✳</span><span class="orbit-dot d1"></span><span class="orbit-dot d2"></span><span class="orbit-dot d3"></span></div><span class="card-kicker">CURADORIA PESSOAL</span><h2>Conexões que<br>vão e voltam.</h2><p>Compare as duas listas.<br>Quem segue você de volta<br>fica fora da limpeza.</p><div class="intention-footer"><span data-icon="heart"></span>Mais espaço para o que importa.</div></article><article class="steps-card"><h3>Pequenos passos. Mais leveza.</h3><ol><li><span class="step-num">1</span><div><strong>Traga sua lista</strong><p>Importe os arquivos do Instagram.</p></div></li><li><span class="step-num">2</span><div><strong>Escolha com intenção</strong><p>Selecione quem não segue de volta.</p></div></li><li><span class="step-num">3</span><div><strong>Execute pela extensão</strong><p>Revise, inicie e acompanhe a fila.</p></div></li></ol><button class="text-button" data-action="guide">Ver o passo a passo <span>↗</span></button></article></aside>
       </div>
-      <footer class="page-footer"><span>Feito para um feed mais seu. · v1.1.0</span><div><button data-action="privacy">Privacidade</button><span>·</span><button data-action="clear">Limpar dados locais</button></div></footer>
+      <footer class="page-footer"><span>Feito para um feed mais seu. · v1.2.0</span><div><button data-action="privacy">Privacidade</button><span>·</span><button data-action="clear">Limpar dados locais</button></div></footer>
     </main>
   </div>
   <div class="selection-bar" id="selection-bar" hidden><div><span class="selection-number" id="selection-number">0</span><div><strong>contas selecionadas</strong><span>Mútuos e protegidos ficam de fora.</span></div></div><div><button class="clear-selection" id="clear-selection">Limpar</button><button class="button primary" id="selection-recover" hidden>Ver fila salva →</button><button class="button primary" id="prepare-queue">Preparar fila <span>→</span></button></div></div>
